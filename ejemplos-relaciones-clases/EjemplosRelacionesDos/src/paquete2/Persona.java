@@ -44,6 +44,6 @@ public class Persona {
     public Barrio obtenerBarrio(){
         return barrio;
     }
-    
+
     
 }

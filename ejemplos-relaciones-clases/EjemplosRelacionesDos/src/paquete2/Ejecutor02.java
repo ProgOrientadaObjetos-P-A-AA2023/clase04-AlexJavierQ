@@ -45,6 +45,9 @@ public class Ejecutor02 {
                 persona2.obtenerBarrio().obtenerNombre(),
                 persona2.obtenerBarrio().obtenerCiudad().obtenerNombre());
         System.out.println("------------------------------------------");
+        
+        persona3.establecerBarrio(barrio3);
+   
          System.out.println("------------------------------------------");
         System.out.printf("El barrio de la persona %s es: %s\n Y pertenece a la "
                 + "ciudad: %s\n",
